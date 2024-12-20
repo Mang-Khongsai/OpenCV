@@ -12,6 +12,12 @@ while True:
     height = int(cap.get(4))
 
     image = np.zeros(frame.shape, np.uint8)
+    
+    # (0, 0) is the starting coordinate of a frame
+    # (0, 0) is the top most left position
+    # (width, height) ending coordinate of a frame
+    # width is topmost right
+    # height is bottommost left
     smaller_frame = cv2.resize(frame, (0,0), fx=0.5, fy=0.5)
     
     # fitting resize video in top left
