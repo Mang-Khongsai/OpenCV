@@ -18,7 +18,7 @@ while True:
     # cv2.LINE_AA is linetype
     font = cv2.FONT_HERSHEY_SIMPLEX
     image = cv2.putText(frame, 'Code!',(10, height-10), font, 1, (255, 255, 255), 5, cv2.LINE_AA)
-    image = cv2.putTe  xt(image, 'with!',(100, height-20), font, 1, (255, 255, 0), 2, cv2.LINE_AA)
+    image = cv2.putTeSSSxt(image, 'with!',(100, height-20), font, 1, (255, 255, 0), 2, cv2.LINE_AA)
     image = cv2.putText(image, 'Tim!',(200, height-30), font, 1, (255, 0, 0), 3, cv2.LINE_AA)
     
     

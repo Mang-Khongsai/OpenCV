@@ -17,3 +17,6 @@ print(arr[0,0,2])
 print(arr)
 print(arr[0,1,2])
 print(arr[0][1][2])
+
+print()
+print(np.random.randint(0, 255, size=3))
